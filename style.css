@@ -1,0 +1,150 @@
+[class*="col-"] {
+    width: 100%;}
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: darkgrey
+    
+    }
+    header{
+        height: 270px;
+        background-color: coral;
+        margin-bottom: 2px;
+    }
+    .ermelo{
+        display: none;
+    }
+    .ermelo100{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    width: 50%;
+    }
+    .lijst{
+        display: inline-flex;
+    }
+    .teksten{
+        display: inline-flex;
+    }
+    ul{
+        background-color: rgb(212, 126, 20);
+    }
+    li{
+        list-style: none;
+        padding: 5px;
+        background-color: rgb(226, 162, 43);
+        border: 2px black;
+        margin-bottom: 3px;
+    }
+    article{
+        margin-left: 5px;
+    }
+    .molen, .schaapskooi{
+        float: right;
+        width: 100px;
+        height: 100px;
+        
+    }
+    .tekst1, .tekst2{
+        background-color: rgb(161, 72, 36);
+        padding: 5px;
+        
+        
+        
+    }
+    footer{
+        height: 270px;
+        background-color: chocolate;
+        margin-top: 2px;
+    }
+    
+    
+
+
+
+
+
+
+    @media only screen and (min-width: 768px) {
+        [class*="col-"] {
+        width: 100%;
+}
+    [class*="col-"] {
+    float: left;
+    padding: 1px;
+}
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkgrey
+
+}
+header{
+    height: 270px;
+    background-color: coral;
+    margin-bottom: 2px;
+}
+.gemeentehuis{
+    display: inline-block;
+    
+}
+.ermelo{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 75px;
+    display: inline-block;
+    text-align: center;
+    width: 25%;
+    vertical-align: 100px;
+}
+.ermelo100{
+    display: none;
+}
+.lijst{
+    display: inline-flex;
+}
+.teksten{
+    display: inline-flex;
+}
+ul{
+    background-color: rgb(212, 126, 20);
+}
+li{
+    list-style: none;
+    padding: 5px;
+    background-color: rgb(226, 162, 43);
+    border: 2px black;
+    margin-bottom: 3px;
+}
+article{
+    margin-left: 5px;
+}
+.molen, .schaapskooi{
+    float: right;
+    width: 100px;
+    height: 100px;
+    
+}
+.tekst1, .tekst2{
+    background-color: rgb(161, 72, 36);
+    padding: 5px;
+    
+    
+    
+}
+footer{
+    height: 270px;
+    background-color: chocolate;
+    margin-top: 2px;
+}
+    }
+
